@@ -2,7 +2,11 @@
 172.35.36.96
 
 [mongodb]
-roboshop-us-dev-db-mongodb-01.joindevops.online
+roboshop-us-dev-db-mongodb-01.tmcdevops.online
+
+[mongodb:vars]
+MONGO_USERNAME=mongodbadmin
+MONGO_DB=categories
 
 [mysql]
 roboshop-us-dev-db-mysql-01.joindevops.online
